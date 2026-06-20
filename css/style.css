@@ -378,12 +378,12 @@
    .hero-slide.active::before { animation-play-state: running; }
    .hero-slide:not(.active)::before { animation-play-state: paused; }
    
-   .hero-overlay {
+  /* .hero-overlay {
      position: absolute;
      inset: 0;
      background: linear-gradient(160deg, rgba(44,10,48,.62) 0%, rgba(122,47,127,.4) 50%, rgba(243,156,94,.2) 100%);
      z-index: 2;
-   }
+   }*/
    
    .hero-content {
      position: absolute;
